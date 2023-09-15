@@ -1,0 +1,48 @@
+.parent{
+    width: 600px;
+    background-color: #eee;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.parent input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px; 
+    font-size: 20px;
+    border: none;
+}
+
+
+.parent input:focus{
+outline: none;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.button span{
+
+border-radius: 4px;
+padding: 6px 10px;
+text-align: center;
+cursor: pointer;
+color: #eee ;
+}
+.button span:not(:nth-child(3)){
+    background-color: #009688;
+}
+.button span:nth-child(3){
+    background-color: rgb(236, 80, 80);
+}
+
+.parent .result{
+    background-color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+    border: 2px dashed #eee;
+
+}
